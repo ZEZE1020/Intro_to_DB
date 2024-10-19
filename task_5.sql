@@ -1,7 +1,7 @@
 -- Insert a single row into the Customers table
 USE alx_book_store;
 
-INSERT into CUSTOMERS (
+INSERT INTO CUSTOMERS (
   customer_id,
   customer_name,
   email,
