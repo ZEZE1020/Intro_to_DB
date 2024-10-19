@@ -1,5 +1,5 @@
 -- Insert multiple rows into the Customers table
-USE ALX_BOOK_STORE;
+USE alx_book_store;
 
 INSERT INTO customers (
   customer_id,
@@ -8,19 +8,19 @@ INSERT INTO customers (
   address
 ) VALUES (
   2,
-  'Blessing Malik',
-  'bmalik@sandtech.com',
-  '124 Happiness Ave.'
+  "Blessing Malik",
+  "bmalik@sandtech.com",
+  "124 Happiness Ave."
 ),
 (
   3,
-  'Obed Ehoneah',
-  'eobed@sandtech.com',
-  '125 Happiness Ave.'
+  "Obed Ehoneah",
+  "eobed@sandtech.com",
+  "125 Happiness Ave."
 ),
 (
   4,
-  'Nehemial Kamolu',
-  'nkamolu@sandtech.com',
-  '126 Happiness Ave.'
+  "Nehemial Kamolu",
+  "nkamolu@sandtech.com",
+  "126 Happiness Ave."
 );
