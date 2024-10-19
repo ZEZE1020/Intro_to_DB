@@ -32,7 +32,7 @@ CREATE TABLE Orders (
   order_id INT AUTO_INCREMENT PRIMARY KEY,
   customer_id INT,
   order_date DATE NOT NULL,
-  FOREIGN key (customer_id) REFERENCES CUSTOMERS(customer_id)
+  FOREIGN key (Customer_id) REFERENCES Customers(customer_id)
 );
 
 
@@ -42,5 +42,5 @@ CREATE TABLE Order_Details (
   book_id INT,
   quantity DOUBLE NOT NULL,
   FOREIGN KEY (order_id) REFERENCES ORDERS(order_id),
-  FOREIGN KEY (book_id) REFERENCES BOOKS(book_id)
+  FOREIGN KEY (Book_id) REFERENCES Books(book_id)
 );
